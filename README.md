@@ -10,9 +10,11 @@ component's attribute list if there only is one to add.
 ## Tags
 
     adc     analog-to-digital converter
+    con     connector
     dac     digital-to-analog converter
     dcdc    dc-dc converter
     iso     isolator
+    mcu     microcontroller
     opamp   operational amplifier
     sup     supply symbol
     vref    voltage reference
