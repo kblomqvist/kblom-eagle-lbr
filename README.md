@@ -26,6 +26,7 @@ component's attribute list if there only is one to add.
         AD5932   Programmable Frequency Scan Waveform Generator 
         AD5933   1 MSPS, 12-Bit Impedance Converter, Network Analyzer
         AD7942   14-Bit, 250 kSPS PulSAR, Pseudo Differential ADC
+	AD8221   Precision Instrumenation Amplifier
         ADA4841  Op-Amp, 16-bit PulSAR ADC driver
         ADG719   2:1 Mux/SPDT Switch
         ADR44x   Ultralow Noise, LDO XFET Voltage References
