@@ -24,6 +24,7 @@ component's attribute list if there only is one to add.
 ## Components
 
     Analog Devices
+        AD56X3R  Dual 12-/14-/16-Bit nanoDAC with 5 ppm/°C On-Chip Reference 
         AD5932   Programmable Frequency Scan Waveform Generator 
         AD5933   1 MSPS, 12-Bit Impedance Converter, Network Analyzer
         AD7942   14-Bit, 250 kSPS PulSAR, Pseudo Differential ADC
@@ -40,10 +41,13 @@ component's attribute list if there only is one to add.
     Texas Instruments
         INA128   Precision Instrumentation Amplifier
 
-    Universals
+    Universal components
         OP-AMP2  Dual Operational Amplifier
         OP-AMP4  Quad Operational Amplifier
         NMOS2    Dual MOS FET
+
+    Filters
+        BNX      Block Type EMIFIL
 
     Connectors
         Atmel AVR JTAG
