@@ -24,7 +24,7 @@ component's attribute list if there only is one to add.
 ## Components
 
     Analog Devices
-        AD56X3R  Dual 12-/14-/16-Bit nanoDAC with 5 ppm/°C On-Chip Reference 
+        AD56X3R  Dual 12-/14-/16-Bit nanoDAC with 5 ppm/C On-Chip Reference 
         AD5932   Programmable Frequency Scan Waveform Generator 
         AD5933   1 MSPS, 12-Bit Impedance Converter, Network Analyzer
         AD7942   14-Bit, 250 kSPS PulSAR, Pseudo Differential ADC
