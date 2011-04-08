@@ -1,7 +1,7 @@
-#usage "Smash all elements"
-       "Usage: RUN smashall.ulp"
-       "Author: Kim Blomqvist"
-       "License: Attribution 3.0 Unported (CC BY 3.0)"
+#usage "<b>Smash all elements</b>"
+       "<p>Usage: RUN smashall.ulp"
+       "<p>Author: Kim Blomqvist"
+       "<p><i>License: Attribution 3.0 Unported (CC BY 3.0)</i>"
 
 string smashall_cmd;
 string smashall_c;

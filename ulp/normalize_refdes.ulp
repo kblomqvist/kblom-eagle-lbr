@@ -1,7 +1,7 @@
-#usage "Normalize ref-des' font, size and ratio."
-       "Usage: CHANGE grid to mils and run normalize_refdes.ulp"
-       "Author: Kim Blomqvist"
-       "License: Attribution 3.0 Unported (CC BY 3.0)"
+#usage "<b>Normalize ref-des' font, size and ratio.</b>"
+       "<p>Usage: CHANGE grid to mils and run normalize_refdes.ulp"
+       "<p>Author: Kim Blomqvist"
+       "<p><i>License: Attribution 3.0 Unported (CC BY 3.0)</i>"
 
 string refdes_font = "VECTOR";  // VECTOR | PROPORTIONAL | FIXED
 int refdes_size = 40;           // mils
