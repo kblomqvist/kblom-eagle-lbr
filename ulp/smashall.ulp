@@ -1,0 +1,24 @@
+#usage "Smash all elements"
+       "Usage: RUN smashall.ulp"
+       "Author: Kim Blomqvist"
+       "License: Attribution 3.0 Unported (CC BY 3.0)"
+
+string smashall_cmd;
+string smashall_c;
+
+if (board) {
+    board(B) {
+        B.elements(E) {
+            sprintf(smashall_c, "SMASH %s;\n", E.name);
+            smashall_cmd += smashall_c;
+        }
+    }
+
+    exit(smashall_cmd); // puke up
+}
+
+if (schematic) {
+    dlgMessageBox("Schematic smashing not yet supported ...");
+}
+
+exit(0);

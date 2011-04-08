@@ -1,0 +1,30 @@
+#usage "Normalize ref-des' font, size and ratio."
+       "Usage: CHANGE grid to mils and run normalize_refdes.ulp"
+       "Author: Kim Blomqvist"
+       "License: Attribution 3.0 Unported (CC BY 3.0)"
+
+string refdes_font = "VECTOR";  // VECTOR | PROPORTIONAL | FIXED
+int refdes_size = 40;           // mils
+int refdes_ratio = 16;          // percents
+
+string nrefdes_cmd;
+string nrefdes_c;
+
+if (board) {
+    board(B) {
+        B.elements(E) {
+            E.texts(T) {
+                sprintf(nrefdes_c, "CHANGE FONT %s (%.2f %.2f);\n", refdes_font, u2mil(T.x), u2mil(T.y));
+                nrefdes_cmd += nrefdes_c;
+
+                sprintf(nrefdes_c, "CHANGE SIZE %d (%.2f %.2f);\n", refdes_size, u2mil(T.x), u2mil(T.y));
+                nrefdes_cmd += nrefdes_c;
+
+                sprintf(nrefdes_c, "CHANGE RATIO %d (%.2f %.2f);\n", refdes_ratio, u2mil(T.x), u2mil(T.y));
+                nrefdes_cmd += nrefdes_c;
+            }
+        }
+    }
+}
+
+exit(nrefdes_cmd); // puke up

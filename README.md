@@ -53,6 +53,11 @@ component's attribute list if there only is one to add.
         Atmel AVR JTAG
         Mini USB, RA, 5 Pin, Type AB
 
+#### ULPs
+
+    normalize_refdes.ulp  Normalize ref-des' font, size and ratio
+    smashall.ulp          Smash all elements
+
 #### Licensing
 
 Attribution 3.0 Unported (CC BY 3.0)
